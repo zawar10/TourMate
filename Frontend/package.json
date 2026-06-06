@@ -14,11 +14,13 @@
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/react-fontawesome": "^3.1.0",
+    "@tailwindcss/vite": "^4.2.2",
     "axios": "^1.13.2",
     "lucide-react": "^0.553.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.6",
+    "tailwindcss": "^4.2.2",
     "tailwindcss-animate": "^1.0.7",
     "yet-another-react-lightbox": "^3.25.0"
   },
