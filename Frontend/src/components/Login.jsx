@@ -4,7 +4,7 @@ import { Mail, Lock } from 'lucide-react';
 import CustomMessageBox from "./CustomMessageBox";
 import loginBg from '../assets/login-bg.png';
 
-const API_URL = process.env.LOGIN_URL;
+const API_URL = 'http://localhost:5000/api/auth/login';
 
 const Login = ({ setIsLoggedIn }) => {
     const navigate = useNavigate();
