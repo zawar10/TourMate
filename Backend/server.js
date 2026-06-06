@@ -15,8 +15,7 @@ app.listen(PORT, () => {
 });
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://tourmate-10.netlify.app/login', 
-        'https://tourmate-10.netlify.app/signup']
+    origin: ['http://localhost:5173', 'https://tourmate-10.netlify.app']
 })); 
 
 mongoose.connect(process.env.MONGODB_URI)
