@@ -4,7 +4,7 @@ import { User, Mail, Lock } from 'lucide-react';
 import CustomMessageBox from "./CustomMessageBox"; 
 import signupBg from '../assets/signup-bg.png'; 
 
-const API_URL = 'http://localhost:5000/api/auth/signup'; 
+const API_URL = process.env.SIGNUP_URL;
 
 const Signup = () => {
     const navigate = useNavigate();
