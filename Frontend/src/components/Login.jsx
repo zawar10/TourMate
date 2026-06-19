@@ -48,7 +48,7 @@ const Login = ({ setIsLoggedIn }) => {
                 setMessage("Login Successful! Redirecting...", 'success');
                 setMessageType('success');
 
-                setTimeout(() => navigate("/userpanel"), 1000);
+                setTimeout(() => navigate("/"), 1000);
             } else {
                 setMessage(`Login Failed: ${data.message || 'Invalid Credentials'}`, 'error');
                 setMessageType('error');
